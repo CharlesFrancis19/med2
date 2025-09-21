@@ -147,7 +147,7 @@ const RiskPredictorPage = () => {
       setLoadingList(true);
       setStatusMsg("");
       try {
-        const res = await axios.get("http://127.0.0.1:5000/api/doctor/patients", {
+        const res = await axios.get("https://med2-jb6x.vercel.app/api/doctor/patients", {
           headers: authHeaders(),
         });
         setPatients(Array.isArray(res.data) ? res.data : []);
