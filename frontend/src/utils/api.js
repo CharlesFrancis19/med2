@@ -3,7 +3,7 @@ import axios from "axios";
 
 const RAW_BASE =
   (typeof process !== "undefined" && process.env.NEXT_PUBLIC_API_URL) ||
-  "http://localhost:5000";
+  "https://med2-vgw1.onrender.com/";
 
 // Always append `/api` safely
 const BASE_URL = `${RAW_BASE}`.replace(/\/+$/, "") + "/api";

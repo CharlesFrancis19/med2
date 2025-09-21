@@ -31,7 +31,7 @@ const DESKTOP_COLLAPSED_W = 88;
 const API = axios.create({
   baseURL:
     (typeof process !== "undefined" && process.env.NEXT_PUBLIC_API_URL) ||
-    "http://localhost:5000/api",
+    "https://med2-vgw1.onrender.com/api",
   timeout: 15000,
 });
 

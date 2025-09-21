@@ -4,7 +4,7 @@ import axios from "axios";
 import { motion, AnimatePresence } from "framer-motion";
 import { CalendarDays, Stethoscope, Search, FileText, Download, X, Heart, CheckCircle2, Plus, Upload, Activity } from "lucide-react";
 
-const API = process.env.NEXT_PUBLIC_API_URL || "http://localhost:5000";
+const API = process.env.NEXT_PUBLIC_API_URL || "https://med2-vgw1.onrender.com";
 
 export default function PatientDashboard() {
   const [loading, setLoading] = useState(true);
