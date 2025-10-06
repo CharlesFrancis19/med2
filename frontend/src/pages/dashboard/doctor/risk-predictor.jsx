@@ -399,7 +399,7 @@ const RiskPredictorPage = () => {
             {loadingPatient ? <Loader2 className="h-4 w-4 animate-spin" /> : <RefreshCw className="h-4 w-4" />}
             {loadingPatient ? "Loading…" : "Refill"}
           </button>
-          {statusMsg && <div className="text-sm text-red-600">{statusMsg}</div>}
+         
         </div>
       </div>
 
