@@ -42,19 +42,19 @@ const Contact = () => {
               <div className="flex items-center gap-4">
                 <Phone className="h-6 w-6 text-blue-600" />
                 <span className="text-gray-800 font-medium text-lg">
-                  +64 27 381 0361
+                  +91 99921 23123
                 </span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="h-6 w-6 text-blue-600" />
                 <span className="text-gray-800 font-medium text-lg">
-                  Aakaashcharleswork@gmail.com
+                  jeevesh@gmail.com
                 </span>
               </div>
               <div className="flex items-center gap-4">
                 <MapPin className="h-6 w-6 text-blue-600" />
                 <span className="text-gray-800 font-medium text-lg">
-                  Hamilton, Waikato
+                  TamilNadu India
                 </span>
               </div>
             </div>
