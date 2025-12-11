@@ -103,7 +103,7 @@ const Footer = () => {
             </div>
           </div>
           <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-            <p>&copy; Aakaash Charles Francis Jayaraj - 1667729.</p>
+            <p>&copy; Jeevesh S.</p>
           </div>
         </div>
       </footer>
